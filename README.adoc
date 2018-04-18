@@ -1,0 +1,5 @@
+= ml-hotels
+
+* http://times.cs.uiuc.edu/~wang296/Data[Download] JSON data
+* Uncompress into the `json` subfolder
+

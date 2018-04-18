@@ -7,7 +7,7 @@ import glob
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-input_dir = "/home/olivier/Recherche/Logique, argumentation, recommandation/Rational beliefs/PEPS S2IH/json/"
+input_dir = "json/"
 
 logger.info("Start")
 input_files = glob.glob(input_dir + "*.json")
@@ -41,5 +41,5 @@ for nb_rev, freq in sorted(freq_by_nb_rev.items(), reverse=True):
 for nb_rev, freq_cumul in sorted(freq_cumul_by_nb_rev.items()):
 	print("≥" + str(nb_rev[1]) + ": " + str(freq_cumul))
 
-//TODO: compute, for each hotel, for each criterion: average grade
+# TODO: compute, for each hotel, for each criterion: average grade
 
