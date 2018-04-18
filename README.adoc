@@ -1,5 +1,5 @@
 = ml-hotels
 
-* http://times.cs.uiuc.edu/~wang296/Data[Download] JSON data
+* Download the TripAdvisor http://times.cs.uiuc.edu/~wang296/Data[Data Set] (in JSON format)
 * Uncompress into the `json` subfolder
 
